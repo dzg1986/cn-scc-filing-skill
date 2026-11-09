@@ -5,7 +5,7 @@ license: CC-BY-NC-SA-4.0
 compatibility: 仅适用于中国内地（含粤港澳大湾区内地九市）的现行制度；需联网或本地检索 references/ 下的法规条文
 metadata:
   author: 丁振赣（广东广和律师事务所）
-  version: 1.0.0
+  version: 1.0.3
   updated: 2026-11-10
   language: zh-CN
   source: 根据业务咨询整理（2025-10 至 2026-10）+ 现行法规原文
