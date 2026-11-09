@@ -69,7 +69,8 @@ cn-scc-filing-skill/
 │   └── qa_check.py                ← 发布前自检：结构 / 规范 / 覆盖度 / 脱敏
 ├── docs/
 │   ├── 使用说明.md
-│   └── 口径来源与更新方法.md
+│   ├── 口径来源与更新方法.md
+│   └── 季度复核清单.md           ← 每季度必过的 8 项核查
 ├── CHANGELOG.md
 └── LICENSE
 ```
