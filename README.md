@@ -35,7 +35,15 @@
 企业管理员在后台把本技能上传为「企业技能」，按成员范围配置，员工打开即可用，无需自行安装。
 
 ### 方式四：Claude Code / 本地 Agent
-把 `skills/cn-scc-filing/` 整个文件夹复制到 `~/.claude/skills/`（全局）或项目下的 `.claude/skills/`（仅本项目），重启后即可用。
+把 `skills/cn-scc-filing/` 整个文件夹复制到对应客户端的技能目录：
+
+| 客户端 | 放到哪里 |
+| --- | --- |
+| Claude Code | `~/.claude/skills/`（全局）或项目下 `.claude/skills/` |
+| DeepSeek Harness | 工作区下的 `.dsh/skills/`（注意是隐藏目录，不是 `skills/`） |
+| 其他本地 Agent | 以其文档说明的技能目录为准 |
+
+放好后重启客户端，技能才会被扫描到。**验证方法**：新开一个会话，问它"你有哪些可用技能"，清单里应出现 `cn-scc-filing`。
 
 > 上架到不同平台要补的东西：WorkBuddy 开放平台需补 display_name、display_name_en、description_zh、description_en、version、author 六个字段；扣子（Coze）上传 zip 后会重新打包，改了内容必须重传。
 
